@@ -21,6 +21,11 @@ public class Main {
             }
         }
         System.out.println("Index: " + index);
+
+        // Part 3
+        int size = 4;
+        int power = 2;
+        System.out.println("toPower Method: " + Arrays.toString(toPower(size, power)));
     }
 
     public static int sumArray (int[] array){
