@@ -1,6 +1,7 @@
 package dataStructures;
 
 import java.lang.Math;
+import java.util.Arrays;
 
 public class Main {
 
@@ -33,7 +34,7 @@ public class Main {
     public static int[] toPower (int size, int power) {
         int[] result = new int[size];
         for (int i = 0; i < size; i++){
-            result[i] = (int) Math.pow(size, power);
+            result[i] = (int) Math.pow(i, power);
         }
         return result;
     }
