@@ -20,14 +20,15 @@ public class Main {
                 index = i;
             }
         }
-        System.out.println("Index: " + index);
+        System.out.println("Index: " + index); // "What is the output?" Answer: 2
 
         // Part 3
         int size = 4;
         int power = 2;
-        System.out.println("toPower Method: " + Arrays.toString(toPower(size, power)));
+        System.out.println("toPower Method: " + Arrays.toString(toPower(size, power))); // Arrays.toString method used to output the array as a string
     }
 
+    // Part 1, used to sum values of a given array
     public static int sumArray (int[] array){
         int sum = 0;
         for (int i : array) {
@@ -36,6 +37,7 @@ public class Main {
         return sum;
     }
 
+    // Part 3, used to produce an array of exponents of a given power to the given size
     public static int[] toPower (int size, int power) {
         int[] result = new int[size];
         for (int i = 0; i < size; i++){
