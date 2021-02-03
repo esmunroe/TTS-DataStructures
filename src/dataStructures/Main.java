@@ -7,16 +7,16 @@ public class Main {
 
     public static void main(String[] args) {
         // Part 1
-        int[] randomArray = {1, 2, 3, 4, 5};
-        System.out.printf("Sum of array: %d\n", sumArray(randomArray));
+        int[] arrayToSum = {1, 2, 3, 4, 5};
+        System.out.printf("Sum of array: %d\n", sumArray(arrayToSum));
 
         // Part 2
-        double[] exampleArray = {1,5,6,5,4,1};
+        double[] exampleArray = {1, 5, 6, 5, 4, 1};
         double maximum = exampleArray[0];
         int index = 0;
-        for (int i = 1; i< exampleArray.length; i++){
-            if (exampleArray[ i ] > maximum) {
-                maximum = exampleArray[ i ];
+        for (int i = 1; i < exampleArray.length; i++){
+            if (exampleArray[i] > maximum) {
+                maximum = exampleArray[i];
                 index = i;
             }
         }
